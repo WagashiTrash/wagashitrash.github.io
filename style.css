@@ -21,7 +21,7 @@
 }
 
 .key{
-    border-color: red;
+    border-color: 1px solid white;
 }
 *{
     font-family: 'Roboto', sans-serif;
