@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Roboto:ital,wght@0,100;0,500;1,100&family=Smooch&display=swap');
 @keyframes TopDelay {
     0% {
       transform: translateY(-10%);
@@ -62,6 +63,9 @@ body
     margin-right: auto;
     animation: TopDelay 2s ease-in-out;
 }
+.profile-card a img{
+    color: black;
+}
 .banner img{
     height: 90vh;
     position: relative;
@@ -89,7 +93,7 @@ a:link, a:active, a:visited{
     color: white;
     text-decoration: none;
 }
-a:hover{
+a.links:hover{
     padding: 9px;
     filter: invert(100);
     background-color: black;
@@ -124,6 +128,34 @@ a:hover{
 #img8{
     animation: LeftDelay 1s ease-in-out;
 }
+.text-desc{
+    position: relative;
+    bottom: 400px;
+    height: 0;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+#text1{
+    position: relative;
+    bottom: 600px;
+}
+#text1 img{
+    border-radius: 100px;
+}
+#text1 h2{
+    font-family: 'Great Vibes', cursive;
+    font-weight: 500;
+    font-size: 50pt !important;
+}
+#text1 p{
+    font-weight: 400;
+    font-size: 20pt !important;
+}
+video{
+    box-shadow: 0 0 0 0;
+    text-shadow: 0 0;
+}
+
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
