@@ -1,4 +1,25 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:ital,wght@0,100;0,500;1,100&display=swap');
+@keyframes TopDelay {
+    0% {
+      transform: translateY(-10%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+@keyframes LeftDelay {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
 .key{
     border-color: red;
 }
@@ -39,6 +60,7 @@ body
     box-shadow: 0px 4px 10px 1px;
     margin-left: auto;
     margin-right: auto;
+    animation: TopDelay 2s ease-in-out;
 }
 .banner img{
     height: 90vh;
@@ -75,6 +97,30 @@ a:hover{
 .link-desc{
     padding-top: 50px;
     color: white;
+}
+#img1{
+    animation: LeftDelay 0.3s ease-in-out;
+}
+#img2{
+    animation: LeftDelay 0.4s ease-in-out;
+}
+#img3{
+    animation: LeftDelay 0.5s ease-in-out;
+}
+#img4{
+    animation: LeftDelay 0.6s ease-in-out;
+}
+#img5{
+    animation: LeftDelay 0.7s ease-in-out;
+}
+#img6{
+    animation: LeftDelay 0.8s ease-in-out;
+}
+#img7{
+    animation: LeftDelay 0.9s ease-in-out;
+}
+#img8{
+    animation: LeftDelay 1s ease-in-out;
 }
 /* width */
 ::-webkit-scrollbar {
