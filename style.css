@@ -4,7 +4,6 @@
 }
 *{
     font-family: 'Roboto', sans-serif;
-    font-size: 15px;
 }
 body
 {
@@ -12,15 +11,17 @@ body
     background-size:cover;
 }
 .main{
-    margin-top: 50px;
     background-image: linear-gradient(to bottom right, #530004, #000000);
     border-radius: 50px;
     width: 100vw;
+    margin-top: 50px;
     overflow: hidden;
     box-shadow: 0px 4px 10px 1px;
+    min-height: 90vh;
 }
 .profile{
     background-color: rgba(0, 0, 0, 0.3);
+    padding-bottom: 50px;
 }
 .profile div div div img{
     border-radius: 50px;
@@ -36,26 +37,45 @@ body
     border-radius: 10px;
     margin-top: 100px;
     box-shadow: 0px 4px 10px 1px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .banner img{
-    width: 90vw;
+    height: 90vh;
     position: relative;
     right: 23px;
-    bottom: 717px;
 }
-.banner #color-cover{
-    background-color: rgba(204, 84, 100, 0.6);
-    width: 90vw;
-    height: 50vh;
+.links{
+    height: 40px;
+    border-radius: 50px;
+    margin: 10px;
+    border: 1px solid white;
+    white-space: nowrap;
+    padding-top: 10px;
+    text-indent: 10px;
+    width: 180px;
+    font-size: 12px !important;
+}
+a.links img{
     position: relative;
-    right: 23px;
-    z-index: 1;
+    bottom: 40px !important;
+    left: 60px;
+    right: 5px;
+    box-shadow: none !important; 
 }
-.pages{
-    overflow-y: scroll;
-    overflow-x: hidden;
+a:link, a:active, a:visited{
+    color: white;
+    text-decoration: none;
 }
-
+a:hover{
+    filter: invert(100);
+    background-color: black;
+    transition: 0.3s ease-in-out;
+}
+.link-desc{
+    padding-top: 50px;
+    color: white;
+}
 /* width */
 ::-webkit-scrollbar {
     width: 10px;
